@@ -211,7 +211,6 @@ public class LocalitySensitiveHashing {
             FileOutputStream fos = new FileOutputStream(fout);
             BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(fos));
 
-           // TODO that kanw add all kappa
            List<SimilarPair> sim = new ArrayList<SimilarPair>(similarItems);
            Collections.sort(sim, Collections.reverseOrder());
 
