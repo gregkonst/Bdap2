@@ -1,2 +1,1 @@
-# Bdap2
-Bdap2
+# Implementation of the Locality Sensitive Hashing algorithm
