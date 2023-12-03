@@ -9,7 +9,8 @@ public class MyPrimitiveArrayList {
 
     public MyPrimitiveArrayList(int initialCapacity){
         if(initialCapacity < 2) {
-            // TODO: Throw invalid argument exception for negative values, and allow values of 0 and 1.
+            // TODO: Throw invalid argument exception for negative values.
+            // Allow values of 0 and 1, but then also update the resize logic of the add function.
             initialCapacity = 2;
         }
         array = new int[initialCapacity];
