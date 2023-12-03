@@ -8,6 +8,10 @@ public class MyPrimitiveArrayList {
     }
 
     public MyPrimitiveArrayList(int initialCapacity){
+        if(initialCapacity < 2) {
+            // TODO: Throw invalid argument exception instead.
+            initialCapacity = 2;
+        }
         array = new int[initialCapacity];
     }
 
