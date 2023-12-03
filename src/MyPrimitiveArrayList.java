@@ -9,7 +9,7 @@ public class MyPrimitiveArrayList {
 
     public MyPrimitiveArrayList(int initialCapacity){
         if(initialCapacity < 2) {
-            // TODO: Throw invalid argument exception instead.
+            // TODO: Throw invalid argument exception for negative values, and allow values of 0 and 1.
             initialCapacity = 2;
         }
         array = new int[initialCapacity];
